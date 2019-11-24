@@ -3,7 +3,7 @@ FROM python:3.7.4-alpine3.10
 ENV TENSORFLOW_VERSION=1.13.2 \
     NUMPY_VERSION=1.17.0 \
     JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk \
-    BAZEL_VERSION=0.26.1 \
+    BAZEL_VERSION=0.19.2 \
     LOCAL_RESOURCES=4096,2.0,1.0 \
     CC_OPT_FLAGS='-march=native' \
     TF_NEED_JEMALLOC=1 \
